@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewnport" content="widht-device-width", initial-scale="1.0">
+    <title>Fan page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+
+    <!--fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    
+    <style>
+        .roboto-mono{
+          font-family: "Roboto Mono", monospace;
+          font-optical-sizing: auto;
+          font-weight: 700;
+          font-style: normal;
+        }
+
+        body{
+            color: rgb(234, 255, 0);
+
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: url("Comp_Tp2/Imagenes/Gif_fondo_2.gif");
+            background-size: cover; /* Asegura que el GIF cubra toda la pantalla */
+            background-repeat: no-repeat; /* Evita que el GIF se repita */
+
+            position: relative;
+            z-index: -1;
+
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+
+            font-family: "Roboto Mono", monospace;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+            
+
+        }
+        .carousel-item img{
+          height: 90vh;
+          min-height: 300px;
+          background: no-repeat center center scroll;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+                
+        }
+      
+        .footer{
+            color: rgb(255, 255, 255);
+            background-color: #222;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /*para los gif*/
+        .contenedor{
+          display: flex;
+          flex-direction: column; /* Estructura de columnas */
+          align-items: center; /* Centra horizontalmente cada fila */
+          gap: 30px; /* Espacio entre filas */
+        }
+        .fila{
+          display: flex;
+          gap: 30px;
+        }
+        .fila img{
+          width: 500px; /* Ajusta el tamaño del GIF */
+          height: 50%;
+          object-fit: cover; /* Asegura que el GIF encaje bien */
+          /*border: 2px solid white; /* Bordes blancos opcionales */
+          border-radius: 10px; /* Esquinas redondeadas */
+        }
+
+        /* CENTRAR TEXTO con cuadro negro*/
+        .centrar-text{
+          text-align: center;
+        
+          background-color:rgba(0, 0, 0, 0.7);
+          
+        }
+    </style>
+    <link rel="icon" href="Comp_Tp2/Imagenes/Icono_1.webp" type="image/x-icon">   <!---icono-->
+</head>
+
+<body>
+
+    <header class="container mt-4">
+        <h1 class="text-center">Hotline miami</h1>
+     
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Comp_Tp2/Imagenes/Im_1.jpg" class="d-block w-100" alt="Jacket_1">
+          </div>
+          <div class="carousel-item">
+            <img src="Comp_Tp2/Imagenes/Im_2.jpg" class="d-block w-100" alt="Jacket_2">
+          </div>
+          <div class="carousel-item">
+            <img src="Comp_Tp2/Imagenes/Im_3.jpg" class="d-block w-100" alt="Jacket_3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+  
+
+    </header>
+    <main class="container mt-5">
+
+      <div class="centrar-text">
+        <div class="notecard deprecated">
+        <h2>Acerca del Juego</h2>
+        <p>Hotline Miami es un videojuego de acción independiente desarrollado por Dennaton Games que combina elementos de shoot 'em up 
+          con una narrativa 
+          surrealista y una estética inspirada en los años 80, compuesto por Jonatan Söderström y Dennis Wedin. 
+            El juego fue lanzado el 23 de octubre de 2012 para Windows
+            se desarrolla en 1989 en Miami y gira en torno a un protagonista sin nombre, conocido como "Jacket", 
+            que recibe mensajes en su contestador automático para cometer masacres contra la mafia rusa local.</p>
+        <p>Nuestro objetivo es acabar con todos los enemigos de cada escenario usando las técnicas que queramos. Podemos recurrir a toda clase de armas de fuego y cuerpo a cuerpo, pero también 
+          podemos usar los puños. En el primer juego, vamos desbloqueando 
+          máscaras de diferentes animales que nos dan habilidades únicas. Si morimos, revivimos de inmediato al comienzo del nivel sin perder un solo instante. Esto ayuda a que el ritmo no decaiga y la adrenalina siga fluyendo. La excelente banda sonora en sintetizador al estilo ochentero ayuda a mantener esa energía. Mientras dejamos charcos de sangre por los escenarios, vamos escuchando a bandas como M|O|O|N, Perturbator, Scattle y Jasper Byrne.
+           Sus composiciones son tan maravillosas que también vale la pena disfrutarlas independientemente del juego. </p>
+          </div>
+      </div>  
+
+    </main>
+        <div class="contenedor">
+          <div class="fila">
+            <img src="Comp_Tp2/Imagenes/game_1.gif" alt="GIF 1">
+            <img src="Comp_Tp2/Imagenes/game_2.gif" alt="GIF 2">
+            
+          </div>
+          <div class="fila">
+           <img src="Comp_Tp2/Imagenes/game_3.gif" alt="GIF 3">
+          </div>
+        </div>
+
+    <footer class="footer">
+        <p>musica del juego: <a href="https://www.youtube.com/watch?v=IKuA-m_6eOo&list=PLLKwfUfqCCODZUCwMBeMlv182Fy187gmA&index=6"> Soundtrack</a> </p>
+        <P>compre el juego aqui: <a href="https://store.steampowered.com/app/219150/Hotline_Miami/">steam.com</a></P>
+    </footer>
+</body>
+
+
+
+</html>
